@@ -14,47 +14,30 @@
             <div class=" max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div class="relative flex h-16 items-center justify-between">
                     <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        <!-- Mobile menu button-->
+                        <!-- Botões Celulares-->
                         <button type="button"
-                            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset"
+                            class="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset"
                             aria-controls="mobile-menu" aria-expanded="false">
-                            <!-- <span class="absolute -inset-0.5"></span> -->
-                            <!-- <span class="sr-only">Open main menu</span> -->
-                            <!--
-            Icon when menu is closed.
-
-            Menu open: "hidden", Menu closed: "block"
-          -->
                             <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" aria-hidden="true" data-slot="icon">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
-                            <!--
-            Icon when menu is open.
-
-            Menu open: "block", Menu closed: "hidden"
-          -->
-                            <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" aria-hidden="false" data-slot="icon">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                            </svg>
                         </button>
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex items-center justify-start">
-                            <img class="h-20 w-auto" src="Logo Pet&Style.png" alt="Logo-Pet&Style" />
+                            <img class="h-20 w-auto" src="/img/Logo Pet&Style.png Pet&Style.png" alt="Logo-Pet&Style" />
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex mt-6 space-x-4">
-                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                                 <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300"
                                     aria-current="page">Hero</a>
-                                <a href="#"
+                                <a href="#Produtos"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Produtos</a>
-                                <a href="#"
+                                <a href="#Depoimentos"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Depoimentos</a>
-                                <a href="#"
+                                <a href="#Contato"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contato</a>
                             </div>
                         </div>
@@ -74,83 +57,138 @@
             </div>
             </div>
             </div>
-
-            <!-- Mobile menu, show/hide based on menu state. -->
             <div class="sm:hidden" id="mobile-menu">
                 <div class="space-y-1 px-2 pt-2 pb-3">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                    <!-- Links -->
                     <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
                         aria-current="page">Hero</a>
-                    <a href="#"
+                    <a href="#Produtos"
                         class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Produtos</a>
-                    <a href="#"
+                    <a href="#Depoimentos"
                         class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Depoimentos</a>
-                    <a href="#"
+                    <a href="#Contato"
                         class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contato</a>
                 </div>
             </div>
         </nav>
     </header>
     <section class="text-center py-10">
-    <h1 class="text-4xl font-bold text-orange-300 mb-4">Estilo de Vida Ativo, para Você e Seu Pet!</h1>
-    <p class="text-lg text-gray-600 mb-6">Explore acessórios, roupas e equipamentos que combinam movimento e bem-estar.</p>
-        <img src="https://media.istockphoto.com/id/1191767798/pt/foto/happy-african-american-athlete-enjoying-with-her-dog-in-the-park.jpg?s=1024x1024&w=is&k=20&c=wqFGVRqb_b8PUOo_7dZa4pEWVOGW-mmsbCxuwwHBO6c=" alt="mulher exercitando com pet" class="mx-auto w-full max-w-lg">
+        <h1 class="text-4xl font-bold text-orange-300 mb-4">Estilo de Vida Ativo, para Você e Seu Pet!</h1>
+        <p class="text-lg text-gray-600 mb-6">Explore acessórios, roupas e equipamentos que combinam movimento e
+            bem-estar.</p>
+        <img src="https://media.istockphoto.com/id/1191767798/pt/foto/happy-african-american-athlete-enjoying-with-her-dog-in-the-park.jpg?s=1024x1024&w=is&k=20&c=wqFGVRqb_b8PUOo_7dZa4pEWVOGW-mmsbCxuwwHBO6c="
+            alt="mulher exercitando com pet" class="mx-auto w-full max-w-lg">
     </section>
-    <section>
+    <section id="Produtos">
         <h1 class="text-orange-300 text-3xl text-center">Produtos</h1>
-    </section>
-    <section>
-        <h1 class="text-orange-300 text-3xl text-center">Depoimentos</h1>
-    </section>
-    <section>
-        <h1 class="text-orange-300 text-3xl text-center">Contato</h1>
-    
-    <form>
-        <div class="space-y-12">
-            <div class="border-b border-gray-900/10 pb-12">
-                <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                    <div class="sm:col-span-4">
-                        <label for="nome" class="block text-sm/6 font-medium text-gray-900">Nome:</label>
-                        <div class="mt-2">
-                            <div
-                                class="flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
-                                <input type="text" name="nome" id="nome"
-                                    class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6"
-                                    placeholder="Insira seu nome" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sm:col-span-4">
-                        <label for="email" class="block text-sm/6 font-medium text-gray-900">Email:</label>
-                        <div class="mt-2">
-                            <input id="email" placeholder="Insira seu E-mail" name="email" type="email"
-                                autocomplete="email"
-                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
-                        </div>
-                    </div>
-                    <div class="col-span-full">
-                        <label for="msg" class="block text-sm/6 font-medium text-gray-900">Mensagem</label>
-                        <div class="mt-2">
-                            <textarea name="msg" id="msg" rows="3"
-                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"></textarea>
-                        </div>
-                        <p class="mt-3 text-sm/6 text-gray-600">Escreva sua mensagem.</p>
-                    </div>
-
-
-                </div>
+        <!-- Cards  -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-4 gap-2">
+            <div
+                class="bg-amber-200 dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5 max-w-sm mx-auto">
+                <img class="w-64 h-64 object-cover mx-auto"
+                    src="https://media.istockphoto.com/id/1598952448/pt/foto/sad-jack-russell-terrier-puppy-resting-on-a-dog-bed-and-hugging-its-toy-cute-adorable-white.webp?s=1024x1024&w=is&k=20&c=UEXUsSiGIaJLRwBhJYVKZk91wWVirOcacfjKqLZ6Anw="
+                    alt="cachorro na caminha">
+                <h3 class="text-orange-300 dark:text-white mt-5 text-base font-medium tracking-tight ">Caminha Conforto
+                    Total</h3>
+                <p class="text-gray-400 dark:text-gray-400 mt-2 text-sm ">
+                    Deixe seu pet descansar com máximo aconchego! A Caminha Conforto Total possui laterais elevadas,
+                    tecido macio e enchimento que abraça o corpo, proporcionando uma sensação de segurança e bem-estar.
+                    Ideal para cães de pequeno e médio porte.
+                </p>
+                <button class="mt-2 p-2 bg-gray-800 rounded-3xl items-center cursor-pointer">Compre Já</button>
+            </div>
+            <div
+                class="bg-amber-200 dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5 max-w-sm mx-auto">
+                <img class="w-64 h-64 object-cover mx-auto"
+                    src="https://media.istockphoto.com/id/1316829099/pt/foto/toys-for-dogs-isolated.webp?s=1024x1024&w=is&k=20&c=wWmtrUXtTjkj0RPgXiZmujyDIbJyGZSEztLMbe4T2Gg="
+                    alt="brinquedos para cachorro">
+                <h3 class="text-orange-300 dark:text-white mt-5 text-base font-medium tracking-tight ">Kit de Brinquedos
+                    Interativos para Pets</h3>
+                <p class="text-gray-400 dark:text-gray-400 mt-2 text-sm ">
+                    Deixe os momentos de brincadeira do seu pet ainda mais animados! Este kit contém brinquedos de
+                    diferentes formas, cores e texturas, ideais para estimular a mordida, aliviar o estresse e manter
+                    seu pet ativo e feliz. Perfeito para cães de todos os portes.
+                </p>
+                <button class="mt-2 p-2 bg-gray-800 rounded-3xl items-center cursor-pointer">Compre Já</button>
+            </div>
+            <div
+                class="bg-amber-200 dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5 max-w-sm mx-auto">
+                <img class="w-64 h-64 object-cover mx-auto"
+                    src="https://down-br.img.susercontent.com/file/sg-11134201-7rd43-lu0q3zjkobz902"
+                    alt="cachorro na caminha">
+                <h3 class="text-orange-300 dark:text-white mt-5 text-base font-medium tracking-tight ">Peitoral
+                    Ajustável com Guia</h3>
+                <p class="text-gray-400 dark:text-gray-400 mt-2 text-sm ">
+                    Leve os passeios do seu pet para outro nível! Nosso peitoral ajustável vem com guia combinando,
+                    oferecendo segurança, conforto e um visual super estiloso. Disponível em várias cores vibrantes para
+                    combinar com a personalidade do seu pet. Ideal para cães de pequeno e médio porte.
+                </p>
+                <button class="mt-2 p-2 bg-gray-800 rounded-3xl items-center cursor-pointer">Compre Já</button>
             </div>
         </div>
+    </section>
+    <section id="Depoimentos">
+        <h1 class="text-orange-300 text-3xl text-center mt-5">Depoimentos</h1>
+        <!-- Grid Depoimentos -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 px-4 gap-2">
+            <blockquote class="text-center text-1xl font-semibold text-gray-900 italic dark:text-white mt-5">
+                "Adorei a qualidade da caminha! Meu cachorro dorme muito melhor agora e o acabamento é lindo. Entrega
+                super
+                rápida também!" — Mariana S. - SP</blockquote>
+            <blockquote class="text-center text-1xl font-semibold text-gray-900 italic dark:text-white mt-5">
+                "Os brinquedos são incríveis! Meu pet amou e não larga mais. Dá pra ver que os
+                materiais são de qualidade."
+                — Lucas R. - RJ</blockquote>
+            <blockquote class="text-center text-1xl font-semibold text-gray-900 italic dark:text-white mt-5">
+                "Comprei um kit de acessórios e fiquei surpresa com o cuidado na embalagem e
+                nos detalhes. Recomendo demais!"
+                — Fernanda M. - MG </blockquote>
         </div>
-        </div>
-        </div>
-
-        <div class="mt-6 flex items-center justify-center gap-x-6">
-            <button type="submit" class="mb-5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
-        </div>
-    </form></section>
+    </section>
+    <section id="Contato">
+        <h1 class="text-orange-300 text-3xl text-start px-3 mt-5">Contato</h1>
+        <!-- Formulario Contato -->
+        <form class="p-4">
+            <fieldset>
+                <div class="border border-gray-900/10 pb-12">
+                    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-4">
+                            <label for="nome" class="block text-sm/6 font-medium text-gray-600">Nome:</label>
+                            <div
+                                class="flex items-center mt-2 rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-gray-800">
+                                <input type="text" name="nome" id="nome"
+                                    class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6"
+                                    placeholder="Insira seu nome" required />
+                            </div>
+                            <label for="telefone" class="block text-sm/6 font-medium text-gray-600">Telefone:</label>
+                            <div
+                                class="flex items-center mt-2 rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-gray-800">
+                                <input type="tel" name="telefone" id="telefone"
+                                    class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6"
+                                    placeholder="Insira seu telefone" required />
+                            </div>
+                            <label for="email" class="block text-sm/6 font-medium text-gray-600">Email:</label>
+                            <input id="email" placeholder="Insira seu E-mail" name="email" type="email"
+                                autocomplete="email"
+                                class="block w-full mt-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-gray-800 sm:text-sm/6"
+                                required />
+                            <label for="msg" class="block text-sm/6 font-medium text-gray-600">Mensagem</label>
+                            <textarea name="msg" placeholder="Escreva sua mensagem para nós" id="msg" rows="3"
+                                class="block w-full mt-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-gray-800 sm:text-sm/6"
+                                required></textarea>
+                            <button type="submit"
+                                class="mx-auto block mt-5 rounded-md bg-gray-700 px-4 py-2 text-sm font-semibold text-amber-200 shadow-xs hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
 
 </body>
-<footer class="bg-gray-800">Todos os direitos Reservados</footer>
+<!-- Rodapé -->
+<footer class=" flex justify-center bg-gray-800 text-amber-200 py-4 text-center">&copy;2025 Valfran Jr. Todos os
+    direitos reservados
+</footer>
 
 </html>

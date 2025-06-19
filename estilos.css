@@ -1,12 +1,15 @@
 @import "tailwindcss";
-@theme{
+@theme {
     --color-gray-800: #6B8F71;
     --color-gray-700: #FF8C42;
-    --color-gray-600: ##333333;
+    --color-gray-400: #666666;
+    --color-gray-600: #333333;
     --color-amber-200: #FDF6F0;
     --color-gray-900: #364739;
     --color-gray-300: #FDF6F0;
     --color-orange-300: #A05C4D;
+    --color-amber-500: 	#E6762F;
+
 
 }
 footer{
